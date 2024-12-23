@@ -1,0 +1,22 @@
+.link {
+  position: relative;
+  padding-bottom: 6px;
+}
+
+.link::before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  height: 10%;
+  background: hsl(var(--primary));
+  width: 0%;
+  transition: width ease 0.3s;
+}
+
+.link:hover::before {
+  width: 50%;
+}
+
+.active::before {
+  width: 50%;
+}

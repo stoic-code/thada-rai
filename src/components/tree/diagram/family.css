@@ -1,0 +1,33 @@
+/* .......................... Tree CSS ............................ */
+/* .link__to-leaf { */
+/*   stroke-dasharray: 3, 3; */
+/* } */
+
+.normal-link {
+  stroke-width: 2px !important;
+}
+
+.dashed-link {
+  stroke: red;
+  stroke-dasharray: 5;
+  animation: dash 0.2s infinite linear;
+}
+
+.own_cluster {
+  stroke: blue !important;
+  stroke-width: 2px !important;
+  /* stroke-dasharray: 5; */
+  /* animation: dash-reverse 0.2s infinite linear; */
+}
+
+@keyframes dash-reverse {
+  to {
+    stroke-dashoffset: 10;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -10;
+  }
+}

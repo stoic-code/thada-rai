@@ -1,0 +1,26 @@
+export const dictionary = {
+  en: {
+    Adhikari_: "Adhikari ",
+    banshwali: "Banshwali",
+    feedback: "Feedback",
+    help_cneter: "Help Center",
+    contact: "Contact",
+    help_support: "Help & Support",
+    terms_policy: "Terms And Policy",
+    privacy_policy: "Quick Links",
+    tos: "Terms of Services",
+    joinus: "Join us on Social Media",
+  },
+  np: {
+    Adhikari_: "गोदार थापा",
+    banshwali: "बंशावली",
+    feedback: "प्रतिक्रिया",
+    help_cneter: "सहायता केन्द्र",
+    contact: "सम्पर्क गर्नुहोस्",
+    help_support: "सहायता र समर्थन",
+    terms_policy: "कुइक लिंक",
+    privacy_policy: "गोपनीयता नीति",
+    tos: "सेवाका सर्तहरू",
+    joinus: "हामीसँग सामाजिक संजालमा जोडिनुहोस् ",
+  },
+};
